@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0 !important;
+}
+.head {
+    background-image: url('Assets/head.png');
+    height: 100vh !important;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    border-radius:0 0 30px 30px;
+    color:white;
+    text-align:center;
+    height:80px;
+    transition: 0.5s;
+    background-color: black;
+    
+} 
+
+.head-title p {
+    font-size: 3em !important;
+    text-shadow: 2px 2px 8px white;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    border-bottom: 1px solid white;
+    transition: 1000ms  !important;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.8s ease-in-out;
+}
+  .scrolled-up{
+    transform:translateY(0); transition: all 1s ease-in-out;
+} 
+.head-title {
+    margin: 0;
+    font-family: 'Romantically Free For Personal', sans-serif;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    color: white;   
+    height: 80%;
+}
+h1 {
+    font-size: 5em !important; 
+    text-shadow: 2px 2px 8px white;
+}
+h2 {
+    color: white !important;
+    font-family: 'Merriweather', serif;
+}
+p {
+    font-size: 1,5em;
+    text-shadow: 2px 2px 8px white;
+}
+.about {
+    height:40vh ;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.about-txt {
+    text-align: center;
+    text-shadow: none !important;
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    justify-content: center !important;
+}
+.divider-horizontal-blurry{ 
+    color: white !important;
+    width: 200px;
+}
+.about-txt p {
+    text-shadow: none;
+    font-family: 'Courier Prime', monospace;
+   
+}
+.main-menu-img {
+    background-image: url('Assets/Naslovna\ 2.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0px !important;
+    background-attachment: fixed !important;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.main-menu-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: auto !important;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Courier Prime', monospace;
+    
+}
+h3 {
+    font-size: 2em !important;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.main-menu-txt p {
+    text-shadow: none !important;
+    color: white;
+}
+.reserved {
+    height: 80vh;
+    background-image:url('Assets/reserved.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+.reserved h4 {
+    font-size: 2.5em;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-shadow: 8px 8px 10px black;
+    letter-spacing: 0.15em;
+    font-family: 'Merriweather', serif;
+    
+}
+button {
+    color: white;
+    background: white !important;
+    margin-bottom: 5% !important;
+    border: white 1px solid;
+}
+.menu-button {
+    padding: 10px;
+    border: 1px solid white !important;
+    color: white !important;
+    background: transparent !important;
+}
+.booking {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h5 {
+    letter-spacing: 00.15em;
+        margin: 0px !;
+        font-size: 42px !important;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+}
+.booking-bt {
+    color: black;
+    border:1px solid black;
+    margin:  0px !important;
+    padding: 0px 10px 0px 10px !important;
+}
+.make {
+    margin-top: 2%;
+}
+.opening {
+    margin-top: 2%;
+}
+.contact {
+    margin-top: 2%;
+}
+.find {
+    margin-top: 2%;
+}
+.booking-p {
+    font-size: 16px;
+    font-family: 'Courier Prime', monospace;
+    padding: 2px;
+    margin: 0px;
+}
+.map {
+    padding: 0 !important;
+}
+footer {
+    height: auto;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 0px !important;
+}
+#hr-footer {
+    width: 70px;
+    margin: 0;
+}
+.footer-h {
+    font-size: 20px !important;
+    color: white;
+}
+
+
+p {
+    text-shadow: none;
+    margin: 0 !important;
+}
+@media screen and (max-width: 320px) {
+    .head {
+        background-image: url('Assets/head.png');
+        background-position: center;
+    }
+    .navbar {
+        background: transparent !important;
+    }
+   h1 {
+    font-size: 2.5em !important;
+   }
+   .head-title p {
+    font-size: 1.5em !important;
+   }
+   .about {
+    height: auto;
+   }
+   h2 {
+    font-size: 1em !important;
+   }
+   .about p {
+    font-size: 16px;
+   }
+  .about {
+    display: none;
+  }
+  [data-aos-duration] {
+    transition-delay: 0 !important;
+  }
+  .reserved h4 {
+    font-size: 20px !important;
+    padding: 0px;
+    letter-spacing: 0px;
+  }
+ .make {
+    font-size: 20px !important;
+  }
+  .opening {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  .contact {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  .find {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  .booking-p {
+    font-size: 12px;
+  }
+  .booking-bt {
+    margin-top: 15px !important;
+  }
+  .footer-menu {
+    display: flex;
+    text-align: center;
+  }
+  .footer-h {
+    font-size: .83em !important;
+    color: white;
+}
+    .list-unstyled a {
+        font-size: 12px;
+    }
+     p {
+        font-size: 12px !important;
+    }
+    .main-menu-txt {
+        padding: 0px !important;
+    }
+    .logo {
+        display: none;
+    }
+}
